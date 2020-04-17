@@ -1,4 +1,167 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+img {
+  height: 100%;
+}
+.title-container {
+  background-image: url("../assets/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-container button {
+  display: block;
+  background-color: grey;
+  margin: 0 1rem 2rem;
+  cursor: pointer;
+  width: 20rem;
+  height: 4.5rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  color: white;
+}
+header {
+  text-align: center;
+}
+header nav {
+  padding: 2rem;
+}
+header nav #home {
+  font-weight: bold;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.artist {
+  width: 40%;
+  text-align: center;
+}
+.artist img {
+  width: 90%;
+  padding: 1rem;
+}
+.artist img:hover {
+  opacity: 0.2;
+}
+.artist a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.8rem;
+}
+.artists-container {
+  display: flex;
+}
+.bio {
+  font-size: 2rem;
+}
